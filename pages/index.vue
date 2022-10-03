@@ -1,8 +1,7 @@
 <template>
 <div>
-  <NuxtLink to="/login">Login</NuxtLink>
-  <h1>HELLO WORLD</h1>
-
+  <img class ="image" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/988/posts/30254/image/website-homepage%20(1).jpg"/>
+ <h1>Home Page</h1>
 </div>
 </template>
 
@@ -13,5 +12,7 @@ export default {
 </script>
 
 <style>
-
+.image{
+  width: 60%;
+}
 </style>
